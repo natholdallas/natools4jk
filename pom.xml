@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>nathol.jkook.tools.natools</groupId>
+  <artifactId>natools4jk</artifactId>
+  <version>QucikShot</version>
+
+  <name>natools4jk</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+
+  <repositories>
+    <repository>
+        <id>jitpack</id>
+        <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>23.1.0</version>
+            <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.SNWCreations</groupId>
+      <artifactId>JKook</artifactId>
+      <version>0.48.2</version>
+      <scope>provided</scope>
+  </dependency>
+  </dependencies>
+</project>
