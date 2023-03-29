@@ -14,11 +14,11 @@ public class ImageBuilder{
     }
 
     public ImageBuilder add(String src, String alt, Size size, boolean circle){
-        if(verfity()) list.add(new ImageElement(src, alt, size, circle));
+        list.add(new ImageElement(src, alt, size, circle));
         return this;
     }
     public ImageBuilder add(String src, String alt, boolean circle){
-        if(verfity()) list.add(new ImageElement(src, alt, circle));
+        list.add(new ImageElement(src, alt, circle));
         return this;
     }
 
@@ -26,8 +26,7 @@ public class ImageBuilder{
         return list;
     }
 
-    private boolean verfity(){
-        int size = list.size();
-        return size <= 9 && size >= 1;
+    public int getImageCount() {
+        return this.list.size();
     }
 }
