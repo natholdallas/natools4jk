@@ -1,4 +1,4 @@
-package nathol.jkook.tools.natools.card.module;
+package nathol.jkook.tools.card.module;
 
 import snw.jkook.message.component.card.element.BaseElement;
 import snw.jkook.message.component.card.element.MarkdownElement;

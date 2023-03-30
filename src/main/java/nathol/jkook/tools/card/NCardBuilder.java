@@ -1,10 +1,10 @@
-package nathol.jkook.tools.natools.card;
+package nathol.jkook.tools.card;
 
-import nathol.jkook.tools.natools.card.module.BaseBuilder;
-import nathol.jkook.tools.natools.card.module.ImageBuilder;
-import nathol.jkook.tools.natools.card.module.InteractBuilder;
-import nathol.jkook.tools.natools.card.module.ParagraphBuilder;
-import nathol.jkook.tools.natools.utils.EasyBuilder;
+import nathol.jkook.tools.card.module.BaseBuilder;
+import nathol.jkook.tools.card.module.ImageBuilder;
+import nathol.jkook.tools.card.module.InteractBuilder;
+import nathol.jkook.tools.card.module.ParagraphBuilder;
+import nathol.jkook.tools.utils.EasyBuilder;
 
 import org.jetbrains.annotations.NotNull;
 import snw.jkook.entity.abilities.Accessory;

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<building xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="card.xsd">
+    <card theme="primary" size="lg">
+        <ActionGroupModule>
+            <ButtonElement>
+                <theme>primary</theme>
+                <value></value>
+                <eventType>NO_ACTION</eventType>
+            </ButtonElement>
+        </ActionGroupModule>
+        <ContainerModule>
+            <ImageElement>
+                <src></src>
+                <alt></alt>
+                <size>lg</size>
+                <circle>true</circle>
+            </ImageElement>
+        </ContainerModule>
+        <ContextModule>
+            <MarkdownElement></MarkdownElement>
+        </ContextModule>
+        <CountdownModule>
+            <type>day</type>
+            <endTime>1000</endTime>
+        </CountdownModule>
+        <DividerModule/>
+        <FileModule>
+            <type>file</type>
+            <src></src>
+            <title></title>
+            <cover></cover>
+        </FileModule>
+        <HeaderModule>
+            hello world
+        </HeaderModule>
+        <ImageGroupModule>
+            <ImageElement>
+                <src></src>
+                <alt></alt>
+                <size>lg</size>
+                <circle>true</circle>
+            </ImageElement>
+        </ImageGroupModule>
+        <InviteModule>
+            code
+        </InviteModule>
+    </card>
+    <card theme="primary" size="lg"></card>
+</building>

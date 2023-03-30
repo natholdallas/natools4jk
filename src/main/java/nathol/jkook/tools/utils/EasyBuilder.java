@@ -1,4 +1,4 @@
-package nathol.jkook.tools.natools.utils;
+package nathol.jkook.tools.utils;
 
 import java.util.Random;
 
