@@ -81,9 +81,15 @@
         <xs:choice minOccurs="0" maxOccurs="unbounded">
             <xs:element name="ActionGroupModule">
                 <xs:complexType>
-                    <xs:choice minOccurs="1" maxOccurs="4">
-                        <xs:element name="ButtonElement" type="ButtonElement" />
-                    </xs:choice>
+                    <xs:sequence>
+                        <xs:element name="InteractElementList">
+                            <xs:complexType>
+                                <xs:choice minOccurs="1" maxOccurs="4">
+                                    <xs:element name="ButtonElement" type="ButtonElement" />
+                                </xs:choice>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
                 </xs:complexType>
             </xs:element>
             <xs:element name="ContainerModule">

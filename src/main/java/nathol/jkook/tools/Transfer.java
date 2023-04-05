@@ -1,4 +1,4 @@
-package nathol.jkook.tools.utils;
+package nathol.jkook.tools;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,16 +17,9 @@ public class Transfer {
     public static <T> T extract(String value, Class<T> typeOfClass){
         Object object = map.get(value);
         if(object == null) return null;
-        return typeOfClass.cast(object);
-    }
-
-    public static void close(String value){
-        if(map.get(value) == null) return;
+        T instance = typeOfClass.cast(object);
         map.remove(value);
-    }
-
-    public static void clear(){
-        map.clear();
+        return instance;
     }
 
     public static void ls(){
@@ -35,7 +28,7 @@ public class Transfer {
             logger.info(
                 """
                     [ id: {} ] [ value : {} ]
-                    -------------------
+                    -------------------------
                     """,
                 l.getKey(),
                 l.getValue()

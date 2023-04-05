@@ -2,11 +2,13 @@
 <building xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="card.xsd">
     <card theme="primary" size="lg">
         <ActionGroupModule>
-            <ButtonElement>
-                <theme>primary</theme>
-                <value></value>
-                <eventType>NO_ACTION</eventType>
-            </ButtonElement>
+            <InteractElementList>
+                <ButtonElement>
+                    <theme>primary</theme>
+                    <value></value>
+                    <eventType>NO_ACTION</eventType>
+                </ButtonElement>
+            </InteractElementList>
         </ActionGroupModule>
         <ContainerModule>
             <ImageElement>
