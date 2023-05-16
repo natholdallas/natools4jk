@@ -1,4 +1,4 @@
-package nathol.jkook.tools;
+package nathol.jkook.tools.utils;
 
 import org.jetbrains.annotations.NotNull;
 import snw.jkook.entity.abilities.Accessory;
@@ -23,7 +23,7 @@ import java.util.Random;
  * 继承自 {@link CardBuilder} <br/>
  * 此类开启了建造者模式,链式调用
  */
-public class NCardBuilder extends CardBuilder {
+public final class NCardBuilder extends CardBuilder {
 
     /**
      * 此构造方法可以帮您设置好卡片的默认值 <br/>

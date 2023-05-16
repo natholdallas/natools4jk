@@ -1,4 +1,4 @@
-package nathol.jkook.tools.newcard;
+package nathol.jkook.tools.admin;
 
 import java.io.File;
 import java.io.FileInputStream;

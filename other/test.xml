@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<building xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="card.xsd">
+    <card theme="primary" size="lg">
+        <ActionGroupModule>
+            <InteractElementList>
+                <ButtonElement theme="danger" eventType="NO_ACTION" />
+            </InteractElementList>
+        </ActionGroupModule>
+    </card>
+    <card theme="primary" size="lg"></card>
+</building>
